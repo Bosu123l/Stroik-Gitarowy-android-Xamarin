@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="208.7dp"
+        android:id="@+id/tableLayout1">
+        <TableRow
+            android:id="@+id/tableRow1">
+            <Button
+                android:text="Start"
+                android:layout_column="0"
+                android:id="@+id/StartButton" />
+            <Button
+                android:text="Odtwórz"
+                android:layout_column="1"
+                android:id="@+id/OdtworzButton" />
+            <SeekBar
+                android:layout_column="2"
+                android:id="@+id/Dlugosc"
+                android:layout_width="225.4dp"
+                android:max="65536"
+                android:indeterminate="true" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2">
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3">
+            <Button
+                android:text="Button"
+                android:layout_column="0"
+                android:id="@+id/button" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
